@@ -6,6 +6,6 @@ resource "null_resource" "this" {
 }
 
 module "child" {
-  source = "github.com/hcrhall/terraform-hcrhall-simple"
+  source = "github.com/hcrhall/terraform-hcrhall-child"
   generic_input = "This is child"
 }
