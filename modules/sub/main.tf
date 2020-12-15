@@ -4,8 +4,3 @@ resource "null_resource" "this" {
       command = "echo ${var.generic_input}"
     }
 }
-
-module "sub" {
-  source = "./modules/sub"
-  generic_input = "This is sub"
-}

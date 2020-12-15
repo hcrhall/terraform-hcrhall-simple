@@ -1,0 +1,1 @@
+variable "generic_input" {}
